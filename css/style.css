@@ -1,3 +1,13 @@
+iframe {
+  width: 80%;
+}
+
+section{
+  height: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
 .jumbotron{
   background-image: url(../images/header.jpg);
   background-size: 100vmax;
@@ -11,7 +21,6 @@
 }
 
 .fullContainer{ 
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -19,7 +28,6 @@
 }
 
 .nav-link{
-  /* margin-top: -4vw;  */
   color: white;
   font-size: 1.5vmax;
 }
@@ -43,7 +51,6 @@
   margin-top: 2%;
   padding: 2vw 0vw;
   text-align: left;
-
 }
 
 .bodyCenter{
@@ -68,12 +75,22 @@
   margin-right: 1px;
 }
 
+.navbar-brand{
+  color: grey;
+  font-size: 7vw;
+}
+
+.navbar-collapse.col-md-4.collapse show{
+  display: flex;
+  justify-content: left;
+}
+
 #carouselExampleControls {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 75%; 
+  width: 75%;
   font-size: 20px;
   color: #fff;
   text-align: center;
@@ -81,18 +98,4 @@
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
   opacity: .5;
-}
-
-.navbar-brand{
-  color: grey;
-  font-size: 7vw;
-}
-
-iframe{
-    width: 80%;
-}
-
-.navbar-collapse.col-md-4.collapse show{
-  display: flex;
-  justify-content: left;
 }
